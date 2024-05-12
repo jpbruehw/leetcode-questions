@@ -47,7 +47,7 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
            else:
                res.append([a, nums[l], nums[r]])
                l += 1
-               # this further ensures no duplicates
+                # this further ensures no duplicates
                 # if the right pointer has the same value too
                 # that is alright because it will evaluate to the same
                 # value and decrement it too
